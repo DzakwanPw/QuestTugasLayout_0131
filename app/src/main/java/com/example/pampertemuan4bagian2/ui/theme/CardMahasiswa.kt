@@ -1,3 +1,5 @@
+package com.example.pampertemuan4bagian2.ui.theme
+
 import androidx.annotation.ColorRes
 import androidx.annotation.DimenRes
 import androidx.annotation.StringRes
