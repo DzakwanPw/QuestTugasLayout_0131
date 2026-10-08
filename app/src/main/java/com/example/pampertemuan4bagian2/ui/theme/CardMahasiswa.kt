@@ -59,3 +59,32 @@ fun CardMahasiswa(
                 modifier = Modifier
                     .weight(1f)
                     .padding(horizontal = dimensionResource(R.dimen.spacing_large))
+            ) {
+                Text(
+                    text = stringResource(nama),
+                    color = colorResource(R.color.text_white),
+                    fontSize = spResource(R.dimen.text_name),
+                    fontWeight = fontWeightNama,
+                    fontFamily = fontNama
+                )
+                if (telepon != null) {
+                    Text(
+                        text = stringResource(telepon),
+                        color = colorResource(R.color.text_cyan),
+                        fontSize = spResource(R.dimen.text_detail)
+                    )
+                }
+                Text(
+                    text = stringResource(alamat),
+                    color = colorResource(warnaAlamat),
+                    fontSize = spResource(R.dimen.text_detail)
+                )
+            }
+            Image(
+                painter = painterResource(R.drawable.logo_umy),
+                contentDescription = stringResource(R.string.logo_description),
+                modifier = Modifier.size(dimensionResource(R.dimen.logo_size))
+            )
+        }
+    }
+}
