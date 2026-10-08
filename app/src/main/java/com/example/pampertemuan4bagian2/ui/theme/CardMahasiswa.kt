@@ -24,3 +24,8 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.TextUnit
 import com.example.pampertemuan4bagian2.R
 
+// Mengubah ukuran dari dimens.xml (sp) menjadi ukuran teks
+@Composable
+fun spResource(@DimenRes id: Int): TextUnit =
+    with(LocalDensity.current) { dimensionResource(id).toSp() }
+
