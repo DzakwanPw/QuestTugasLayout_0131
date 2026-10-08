@@ -29,3 +29,15 @@ import com.example.pampertemuan4bagian2.R
 fun spResource(@DimenRes id: Int): TextUnit =
     with(LocalDensity.current) { dimensionResource(id).toSp() }
 
+// Satu fungsi Card yang dipakai untuk keempat card
+@Composable
+fun CardMahasiswa(
+    @StringRes nama: Int,
+    @StringRes alamat: Int,
+    @ColorRes warnaCard: Int,
+    @ColorRes warnaAlamat: Int,
+    modifier: Modifier = Modifier,
+    @StringRes telepon: Int? = null,
+    fontNama: FontFamily? = null,
+    fontWeightNama: FontWeight = FontWeight.Bold
+) {
