@@ -46,3 +46,7 @@ fun CardMahasiswa(
         shape = RoundedCornerShape(dimensionResource(R.dimen.card_corner)),
         colors = CardDefaults.cardColors(containerColor = colorResource(warnaCard))
     ) {
+        Row(
+            modifier = Modifier.padding(dimensionResource(R.dimen.card_padding)),
+            verticalAlignment = Alignment.CenterVertically
+        ) {
