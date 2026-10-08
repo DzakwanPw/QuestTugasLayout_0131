@@ -1,2 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <dimen name="screen_padding">16dp</dimen>
+    <dimen name="header_top_padding">48dp</dimen>
+    <dimen name="footer_bottom_padding">16dp</dimen>
+    <dimen name="spacing_medium">8dp</dimen>
+    <dimen name="spacing_large">16dp</dimen>
+    <dimen name="card_corner">12dp</dimen>
+    <dimen name="card_padding">12dp</dimen>
+    <dimen name="logo_size">56dp</dimen>
+    <dimen name="text_title">24sp</dimen>
+    <dimen name="text_subtitle">14sp</dimen>
+    <dimen name="text_name">20sp</dimen>
+    <dimen name="text_detail">14sp</dimen>
+    <dimen name="text_footer">12sp</dimen>
+</resources>
