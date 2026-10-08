@@ -50,3 +50,12 @@ fun CardMahasiswa(
             modifier = Modifier.padding(dimensionResource(R.dimen.card_padding)),
             verticalAlignment = Alignment.CenterVertically
         ) {
+            Image(
+                painter = painterResource(R.drawable.logo_umy),
+                contentDescription = stringResource(R.string.logo_description),
+                modifier = Modifier.size(dimensionResource(R.dimen.logo_size))
+            )
+            Column(
+                modifier = Modifier
+                    .weight(1f)
+                    .padding(horizontal = dimensionResource(R.dimen.spacing_large))
