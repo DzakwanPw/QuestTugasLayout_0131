@@ -41,3 +41,8 @@ fun CardMahasiswa(
     fontNama: FontFamily? = null,
     fontWeightNama: FontWeight = FontWeight.Bold
 ) {
+    Card(
+        modifier = modifier.fillMaxWidth(),
+        shape = RoundedCornerShape(dimensionResource(R.dimen.card_corner)),
+        colors = CardDefaults.cardColors(containerColor = colorResource(warnaCard))
+    ) {
